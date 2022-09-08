@@ -62,7 +62,7 @@ export default function PartTwo() {
               <img src={fr2} alt="fr2" className="fr2" />
               <img src={fr3} alt="fr3" className="fr3" />
               <img src={fr4} alt="fr4" className="fr4" />
-              <img src={fr4} alt="fr5" className="fr5" />
+              <img src={fr5} alt="fr5" className="fr5" />
               <div className="contentText">
                 <h2 className="Informacin-nutrimen">Información nutrimental</h2>
               </div>

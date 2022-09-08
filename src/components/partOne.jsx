@@ -7,7 +7,6 @@ import logoSello from '../assets/images/sello-avalado.png'
 import logoCal from '../assets/images/img-100-kcal.png'
 import { ArrowDown } from 'react-feather'
 import fresas2 from '../assets/images/img-fresas-2.png'
-import fresaCut from '../assets/images/img-fresas-4.png'
 
 export default function PartOne() {
   let width = window.innerWidth;
