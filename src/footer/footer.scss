@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.containerLogosFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 40px 0px;
+}
+
+.containerLogosFooter > img {
+  max-width: 80px;
+  height: auto;
+}
+
+.containerTextFooter {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px 60px 30px;
+}
+
+.containerTextFooter > p {
+  font-family: "OpenSans";
+  font-size: 12px;
+  text-align: center;
+  color: #000;
+  margin: 0px auto;
+}
+
+@media only screen and (min-width: 600px)  {
+  .containerTextFooter {
+    padding: 0px;
+  }
+
+}

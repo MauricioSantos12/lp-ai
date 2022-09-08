@@ -1,0 +1,153 @@
+.contentParTwo {
+    background-color: transparent;
+    margin: 0 30px;
+}
+
+.contentText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.contentTextWithoutMarginTop {
+    display: flex;
+    flex-direction: column;
+}
+
+.Informacin-nutrimen {
+    font-family: 'OpenSans';
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.41px;
+    color: #6f2e6d;
+    text-align: left;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+}
+
+.Ingredientes-Leche {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+    text-align: left;
+  }
+
+.Ingredientes-Leche .text-style-1 {
+    font-weight: normal;
+}
+
+.Vitalnea-Bebible-G  {
+    text-align: left;
+    font-family: "OpenSans";
+    font-size: 14px;
+    color: #000;
+    margin: 35px 0px 25px;
+    max-width: 200px;
+}
+
+.imgFresaLeft {
+    position: absolute;
+    left: -145px;
+    transform: rotate(40deg);
+    top: 95px;
+}
+
+.logoFresaPartTwo {
+    position: absolute;
+    left: -55px;
+    transform: rotate(-12deg);
+    width: 100px;
+}
+
+.fr1 {
+    left: 25px;
+    width: 90px;
+    position: absolute;
+    bottom: -245px;
+}
+
+.fr2 {
+    position: absolute;
+    left: -30px;
+    width: 100px;
+    position: absolute;
+    bottom: -575px;
+}
+
+.fr3 {
+    position: absolute;
+    left: 203px;
+    width: 100px;
+    position: absolute;
+    bottom: -770px;
+}
+
+.fr4 {
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    position: absolute;
+    bottom: -575px;
+}
+
+.fr5 {
+    right: 0px;
+    width: 50px;
+    position: absolute;
+    bottom: -245px;
+}
+
+
+.fresaHead {
+    transform: rotate(0deg);
+    position: absolute;
+    right: 0px;
+    bottom: -230px;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    box-shadow: 0 62px 34px 0 rgb(0 0 0 / 6%);
+}
+
+
+.dFlexColumnParTwo {
+    width: 350px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 75%;
+}
+
+.dFlexColumnLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 60%;
+}
+
+@media only screen and (min-width: 600px)  {
+    .contentParTwo {
+        background-color: transparent;
+        margin: 0 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contentText {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        align-items: center;
+    }
+
+    .Vitalnea-Bebible-G {
+        font-weight: bold;
+    }
+}
